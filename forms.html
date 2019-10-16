@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      } 
+
+      html, body {
+        width: 100%;
+        height: 100%;
+      }
+
+      form {
+        display: flex;
+        flex-flow: column nowrap;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+      }
+
+      form fieldset {
+        padding: 5px;
+        width: 100%;
+      }
+      form label {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="/path-to-server-action">
+      <h1>Типы</h1>
+
+      <style>
+        .text-inputs {
+          display: flex;
+          flex-direction: column nowrap;
+        }
+      </style>
+      <fieldset class="text-inputs">
+        <legend>Текст</legend>
+
+        <label for="text">
+          Текст
+          <input type="text" name="text" id="text" />
+        </label>
+
+        <label for="tel">
+          Телефон
+          <input type="tel" name="tel" id="tel" />
+        </label>
+
+        <label for="password">
+          Пароль
+          <input type="password" name="password" id="password" />
+        </label>
+
+        <label for="number">
+          Число
+          <input type="number" name="number" id="number" />
+        </label>
+
+        <label for="email">
+          Email
+          <input type="email" name="email" id="email" />
+        </label>
+      </fieldset>
+      <style>
+        .date-inputs {
+          display: flex;
+          flex-direction: column nowrap;
+        }
+      </style>
+      <fieldset>
+        <legend>type="radio"</legend>
+
+        <input type="radio" name="radio-1" />
+        <input type="radio" name="radio-1" />
+        <input type="radio" name="radio-1" />
+        <input type="radio" name="radio-1" />
+        <input type="radio" name="radio-1" />
+      </fieldset>
+
+      <fieldset>
+        <legend>Чекбоксы</legend>
+
+        <input type="checkbox" />
+      </fieldset>
+
+      <fieldset>
+        <legend>Подтип кнопки</legend>
+
+        <input type="button" value="[type='button']" />
+        <input type="submit" value="[type='submit']" />
+      </fieldset>
+
+      <fieldset>
+        <legend>Выбор цвета</legend>
+
+        <input type="color" />
+      </fieldset>
+
+      <style>
+        .date-inputs {
+          display: flex;
+          flex-direction: column nowrap;
+        }
+      </style>
+      <fieldset class="date-inputs">
+        <legend>Дата/время</legend>
+
+        <label for="date">
+          Дата
+          <input type="date" name="date" id="date"/>
+        </label>
+
+        <label for="time">
+          Время
+          <input type="time" name="time" id="time"/>
+        </label>
+
+        <label for="week">
+          Неделя
+          <input type="week" name="week" id="week"/>
+        </label>
+
+        <label for="month">
+          Месяц
+          <input type="month" name="month" id="month"/>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Загрузка файла</legend>
+
+        <input type="file" />
+      </fieldset>
+
+      <fieldset>
+        <legend>Range</legend>
+
+        <input type="range" />
+      </fieldset>
+    </form>
+  </body>
+</html>

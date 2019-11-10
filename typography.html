@@ -2,8 +2,16 @@
 <html lang="en">
   <head>
     <title>Типография</title>
+    <!-- 
+
+      
+      Материалы:
+      https://html5book.ru/css-shrifty/
+      https://www.w3.org/TR/css-fonts-3/
+     -->
   </head>
   <body>
+    <!-- Заголовки -->
     <h1>Заголовок первого уровня</h1>
     <h2>Заголовок второго уровня</h2>
     <h3>Заголовок третьего уровня</h3>
@@ -26,6 +34,8 @@
       culpa illum.
     </p>
 
+
+    <!-- Стилизация текста -->
     <style>
       .red-text {
         color: red;
@@ -42,6 +52,8 @@
       culpa illum.
     </p>
 
+
+    <!-- Цитаты -->
     <blockquote>
       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti
       asperiores, delectus mollitia cupiditate dolorem soluta eligendi animi
@@ -61,6 +73,7 @@
       </code>
     </pre>
 
+    <!-- Позиционироване текста  -->
     <style>
       .text-align-left {
         text-align: left;
@@ -140,6 +153,79 @@
         </tr>
       </tbody>
     </table>
+
+
+    <!-- Шрифты -->
+
+    <!-- Насыщенность -->
+    <h3>Насыщенность</h3>
+    <style>
+      .font-weight-normal {font-weight: normal;}
+      .font-weight-bold {font-weight: bold;}
+      .font-weight-lighter {font-weight: lighter;}
+      .font-weight-bolder {font-weight: bolder;}
+      .font-weight-100 {font-weight: 100;} 
+      .font-weight-200 {font-weight: 200;} 
+      .font-weight-300 {font-weight: 300;} 
+      .font-weight-400 {font-weight: 400;} 
+      .font-weight-500 {font-weight: 500;} 
+      .font-weight-600 {font-weight: 600;} 
+      .font-weight-700 {font-weight: 700;} 
+      .font-weight-800 {font-weight: 800;} 
+      .font-weight-900 {font-weight: 900;} 
+    </style>
+    <p class="font-weight-normal">Lorem ipsum dolor sit amet</p>
+    <p class="font-weight-bold">Lorem ipsum dolor sit amet</p>
+    <p class="font-weight-lighter">Lorem ipsum dolor sit amet</p>
+    <p class="font-weight-bolder">Lorem ipsum dolor sit amet</p>
+    <p class="font-weight-100">Lorem ipsum dolor sit amet</p>
+    <p class="font-weight-200">Lorem ipsum dolor sit amet</p>
+    <p class="font-weight-300">Lorem ipsum dolor sit amet</p>
+    <p class="font-weight-400">Lorem ipsum dolor sit amet</p>
+    <p class="font-weight-500">Lorem ipsum dolor sit amet</p>
+    <p class="font-weight-600">Lorem ipsum dolor sit amet</p>
+    <p class="font-weight-700">Lorem ipsum dolor sit amet</p>
+    <p class="font-weight-800">Lorem ipsum dolor sit amet</p>
+    <p class="font-weight-900">Lorem ipsum dolor sit amet</p>
+
+    <!-- Ширина шрифта -->
+
+    <h3>Ширина шрифта</h3>
+    <style>
+      .font-stretch-ultra-condensed {font-stretch: ultra-condensed; 	/* Указывает на наиболее сжатый шрифт. */}
+      .font-stretch-extra-condensed {font-stretch: extra-condensed; /* 	Указывает на второй по сжатости шрифт. */}
+      .font-stretch-condensed {font-stretch: condensed; 	/* Указывает на сжатый шрифт. */}
+      .font-stretch-semi-condensed {font-stretch: semi-condensed; 	/* Указывает на немного сжатый шрифт. */}
+      .font-stretch-normal {font-stretch: normal; 	/* Значение по умолчанию. */}
+      .font-stretch-semi-expanded {font-stretch: semi-expanded; 	/* Слегка расширенный шрифт. */}
+      .font-stretch-expanded {font-stretch: expanded; 	/* Расширенный шрифт. */}
+      .font-stretch-extra-expanded {font-stretch: extra-expanded; 	/* Второй по расширенности шрифт. */}
+      .font-stretch-ultra-expanded {font-stretch: ultra-expanded; 	/* Максимально расширенный шрифт. */}
+    </style>
+
+    <p class="font-stretch-ultra-condensed">Lorem ipsum dolor sit amet</p>
+    <p class="font-stretch-extra-condensed">Lorem ipsum dolor sit amet</p>
+    <p class="font-stretch-condensed">Lorem ipsum dolor sit amet</p>
+    <p class="font-stretch-semi-condensed">Lorem ipsum dolor sit amet</p>
+    <p class="font-stretch-normal">Lorem ipsum dolor sit amet</p>
+    <p class="font-stretch-semi-expanded">Lorem ipsum dolor sit amet</p>
+    <p class="font-stretch-expanded">Lorem ipsum dolor sit amet</p>
+    <p class="font-stretch-extra-expanded">Lorem ipsum dolor sit amet</p>
+    <p class="font-stretch-ultra-expanded">Lorem ipsum dolor sit amet</p>
+
+    <!-- Начертание шрифта -->
+    <h3>Начертание шрифта</h3>
+
+    <style>
+      .font-style-normal {font-style: normal;}
+      .font-style-italic {font-style: italic;/* Выделяет текст курсивом. */}
+      .font-style-oblique {font-style: oblique;/* Устанавливает наклонное начертание шрифта. */}
+    </style>
+
+    <p class="font-style-normal">Lorem ipsum dolor sit amet</p>
+    <p class="font-style-italic">Lorem ipsum dolor sit amet</p>
+    <p class="font-style-oblique">Lorem ipsum dolor sit amet</p>
+      
 
   </body>
 </html>

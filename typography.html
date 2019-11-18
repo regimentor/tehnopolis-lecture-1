@@ -2,13 +2,29 @@
 <html lang="en">
   <head>
     <title>Типография</title>
-    <!-- 
 
-      
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans|Montserrat|Noto+Serif|Poppins|Roboto&display=swap" rel="stylesheet">
+    <!--
       Материалы:
       https://html5book.ru/css-shrifty/
       https://www.w3.org/TR/css-fonts-3/
      -->
+
+     <style>
+       * {
+        font-family: 'IBM Plex Sans', sans-serif;
+/*         font-family: 'Roboto', sans-serif;
+        font-family: 'Noto Serif', serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Montserrat', sans-serif; */
+       }
+
+       .font-IBM-Plex-Sans {font-family: 'IBM Plex Sans', sans-serif;}
+       .font-Roboto {font-family: 'Roboto', sans-serif;}
+       .font-Noto-Serif {font-family: 'Noto Serif', serif;}
+       .font-Poppins {font-family: 'Poppins', sans-serif;}
+       .font-Montserrat {font-family: 'Montserrat', sans-serif;}
+     </style>
   </head>
   <body>
     <!-- Заголовки -->
@@ -202,17 +218,7 @@
       .font-stretch-extra-expanded {font-stretch: extra-expanded; 	/* Второй по расширенности шрифт. */}
       .font-stretch-ultra-expanded {font-stretch: ultra-expanded; 	/* Максимально расширенный шрифт. */}
     </style>
-
-    <p class="font-stretch-ultra-condensed">Lorem ipsum dolor sit amet</p>
-    <p class="font-stretch-extra-condensed">Lorem ipsum dolor sit amet</p>
-    <p class="font-stretch-condensed">Lorem ipsum dolor sit amet</p>
-    <p class="font-stretch-semi-condensed">Lorem ipsum dolor sit amet</p>
-    <p class="font-stretch-normal">Lorem ipsum dolor sit amet</p>
-    <p class="font-stretch-semi-expanded">Lorem ipsum dolor sit amet</p>
-    <p class="font-stretch-expanded">Lorem ipsum dolor sit amet</p>
-    <p class="font-stretch-extra-expanded">Lorem ipsum dolor sit amet</p>
-    <p class="font-stretch-ultra-expanded">Lorem ipsum dolor sit amet</p>
-
+    
     <!-- Начертание шрифта -->
     <h3>Начертание шрифта</h3>
 
